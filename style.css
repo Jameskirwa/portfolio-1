@@ -45,3 +45,24 @@ ul{
 ul>li{
   padding: 15px;
 }
+.moringa{
+  text-align: center;
+}
+#education{
+  display: flex;
+  padding-left: 60px;
+}
+.education{
+  text-align: center;
+}
+ol{padding-left: 400px;}
+ol>li{
+ display: inline-flex;
+ justify-content: space-between;
+ padding: 20px;
+}
+h2,p{text-align: center;}
+.h4,.h5{
+  border: 1px solid black;
+  padding: 20px;
+}
