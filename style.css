@@ -4,7 +4,7 @@ nav{
   margin-right: 0;
 }
 nav>ul{
-  text-align: left;
+  text-align: right;
 }
 nav>ul>li{
   display: inline-block;
@@ -20,10 +20,28 @@ nav>ul>li>a:hover{
   background-color: #000000;
   opacity: 0.8%;
   /* font-weight: bolder; */
-  color: blue;
+  color: white;
   /* text-align: center; */
 }
 h1{
   color: white;
   text-align: center;
+  font-weight: 900;
+}
+.home{
+  text-align: center;
+}
+.flex{
+  display: flex;
+  margin-left: 300px;
+  padding: 20px;
+}
+h2{
+  color: brown;
+}
+ul{
+  border: 1px solid black;
+}
+ul>li{
+  padding: 15px;
 }
