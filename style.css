@@ -21,14 +21,16 @@ nav>ul>li>a:hover{
  body {
   background-color: #000000;
   opacity: 0.8%;
-  /* font-weight: bolder; */
+  font-size: larger;
   color: white;
-  /* text-align: center; */
+  font-style: oblique;
 }
 h1{
   color: white;
   text-align: center;
   font-weight: 900;
+  font-style: italic;
+  font-family: sans-serif;
 }
 .home{
   text-align: center;
@@ -67,4 +69,7 @@ h2,p{text-align: center;}
 .h4,.h5{
   border: 1px solid black;
   padding: 20px;
+}
+h3{
+  color: blue;
 }
