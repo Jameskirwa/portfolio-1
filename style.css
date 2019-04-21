@@ -15,7 +15,7 @@ nav>ul>li>a{
   padding-bottom: 20px;
 }
 nav>ul>li>a:hover{
-  color: red;
+  color: white;
   background-color: red;
 }
 @media screen and (min-width: 480px) {
@@ -31,8 +31,8 @@ h1{
   color: red;
   text-align: center;
   font-weight: 900;
-  font-style: italic;
-  font-family: 'Special Elite', cursive;
+  /* font-style: italic; */
+  font-family: 'Special Elite' cursive;
 }
 html{
   scroll-behavior: smooth;
