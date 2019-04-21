@@ -4,12 +4,11 @@ nav{
   margin-right: 0;
 }
 nav>ul{
-  text-align: right;
+  text-align: center;
 }
 nav>ul>li{
   display: inline-block;
-  color: white;
-}
+ }
 nav>ul>li>a{
   padding: 20px;
   text-decoration: none;
@@ -17,27 +16,23 @@ nav>ul>li>a{
 }
 nav>ul>li>a:hover{
   color: red;
+  background-color: red;
 }
-@media screen and (min-width: 20px) {
-  body {
- opacity: 0.9;
+@media screen and (min-width: 480px) {
+body {color: black;
+}
  }
-
-}
 body{
 background-color: #FBFEFB;
 font-size: larger;
-color: black;
 font-style: oblique;
 }
-
-
 h1{
   color: red;
   text-align: center;
   font-weight: 900;
   font-style: italic;
-  font-family: sans-serif;
+  font-family: 'Special Elite', cursive;
 }
 html{
   scroll-behavior: smooth;
@@ -72,6 +67,8 @@ h5{
 color: red;
  font-family: sans-serif;
  text-align: center;
+ box-sizing: content-box;
+ background-color: lightblue;
 }
 h2,p{text-align: center;}
 
@@ -85,4 +82,9 @@ h3{
 #projects{
   display: flex;
   flex-direction: column;
+}
+#home{
+  background-image: url(background.svg);
+  opacity: 1.1;
+  font-size: xx-large;
 }
