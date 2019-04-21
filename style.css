@@ -18,19 +18,22 @@ nav>ul>li>a{
 nav>ul>li>a:hover{
   color: red;
 }
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 20px) {
   body {
-  color: white;
+ opacity: 0.9;
  }
+
 }
-background-color: black;
-opacity: 0.8%;
+body{
+background-color: #FBFEFB;
 font-size: larger;
-color: white;
+color: black;
 font-style: oblique;
+}
+
 
 h1{
-  color: green;
+  color: red;
   text-align: center;
   font-weight: 900;
   font-style: italic;
@@ -39,7 +42,7 @@ h1{
 html{
   scroll-behavior: smooth;
 }
-.home{
+#home{
   text-align: center;
 }
 .flex{
@@ -78,4 +81,8 @@ h2,p{text-align: center;}
 }
 h3{
   color: blue;
+}
+#projects{
+  display: flex;
+  flex-direction: column;
 }
